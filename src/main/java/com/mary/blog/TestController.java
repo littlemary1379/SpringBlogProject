@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class TestController {
 
 	@GetMapping({"","/"})
-	public @ResponseBody String index() {
+	public String index() {
 		return "index";
 	}
 }
