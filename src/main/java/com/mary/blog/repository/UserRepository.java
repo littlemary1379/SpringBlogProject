@@ -5,7 +5,8 @@ import java.util.List;
 import com.mary.blog.model.User;
 
 public interface UserRepository {
-	public List<User> findAll();
+	public void save(User user);
+	public User login(User user);
 }
 
 

@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 
 @Configuration
-@MapperScan(basePackages = "com.cos.blog.repository") //com.cos.blog.repository 이하 폴더를 스캔해서 메모리에 다 띄어준다.(repository 어노테이션 안붙여도됨)
+@MapperScan(basePackages = "com.mary.blog.repository") //com.cos.blog.repository 이하 폴더를 스캔해서 메모리에 다 띄어준다.(repository 어노테이션 안붙여도됨)
 public class DataAccessConfig {
 
     @Bean

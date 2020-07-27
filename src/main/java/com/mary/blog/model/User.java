@@ -16,7 +16,11 @@ public class User {
 	private String password;
 	private String email;
 	private String profile;
+	private String role;
 	private Timestamp createDate;
 	
 }
+
+
+
 
